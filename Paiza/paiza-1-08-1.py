@@ -1,4 +1,11 @@
-# coding: utf-8
+﻿# coding: utf-8
+#値段を計算する
+import random
+number=random.randint(1,10) #匹数1～10
+print("体重100キログラムのスライムが"+str(number)+"匹あらわれた")
+#合計体重=匹数*100
+total=number*100
+print("スライムの合計体重は"+str(total)+"キロです。")
 '''
 演習課題「スライムの合計体重を出力！」
 右側のコードエリアにあるプログラムは、出現するスライムの匹数をランダムに生成します。

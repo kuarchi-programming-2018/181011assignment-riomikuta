@@ -1,5 +1,7 @@
-# coding: utf-8
-
+﻿# coding: utf-8
+import random
+number=random.randint(1,6)
+print("サイコロの目は"+str(number)+"です。")
 '''
 演習課題「1から6のサイコロを作る」
 randint関数を使用して「サイコロの目は**です。」と出力をしてください。
