@@ -1,4 +1,20 @@
-# coding: utf-8
+﻿# coding: utf-8
+#おみくじプログラム
+
+imort random
+line=input().rstrip().split(",")
+
+# カンマで分割して、リストに代入
+omikuzi=["大吉","中吉","吉","凶"]
+
+# リストの要素数を変数に代入
+num=len(line)
+
+# リストの中身を出力
+print(omikuzi)
+
+# ランダムに選んだリストの要素を出力
+print(omikuzi[random.randrange(num)])
 
 '''
 演習課題「おみくじを作ろう」
